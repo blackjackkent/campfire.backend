@@ -1,0 +1,50 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+	"extends": ["airbnb-base"],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"comma-dangle": ["error", "never"],
+		"linebreak-style": ["error", "unix"],
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"no-tabs": "off",
+		"class-methods-use-this": "off",
+		"no-plusplus": "off",
+		"arrow-body-style": ["error", "as-needed"],
+		"no-confusing-arrow": [
+			"error",
+			{
+				"allowParens": true
+			}
+		],
+		"import/no-extraneous-dependencies": [
+			"error",
+			{
+				"devDependencies": [
+					"**/*.test.js",
+					"**/*.spec.js",
+					"**/config/**",
+					"**/*webpack*"
+				]
+			}
+		],
+		"require-yield": "off"
+	}
+}
