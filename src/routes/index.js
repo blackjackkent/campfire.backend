@@ -1,6 +1,8 @@
 import express from 'express';
-import settings from '../settings';
+import { indexPage } from '../controllers';
 
 const indexRouter = express.Router();
-indexRouter.get('/', (req, res) => res.status(200).json({ message: settings.testEnvironmentVariable }));
+
+indexRouter.get('/', indexPage);
+
 export default indexRouter;
