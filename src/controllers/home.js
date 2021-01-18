@@ -1,4 +1,3 @@
-import settings from '../settings';
-
+import { testEnvironmentVariable } from '../settings';
 export const indexPage = (req, res) =>
-	res.status(200).json({ message: settings.testEnvironmentVariable });
+	res.status(200).json({ message: testEnvironmentVariable });

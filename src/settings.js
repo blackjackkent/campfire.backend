@@ -2,4 +2,5 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-export default { testEnvironmentVariable: process.env.TEST_ENV_VARIABLE };
+export const testEnvironmentVariable = process.env.TEST_ENV_VARIABLE;
+export const connectionString = process.env.CONNECTION_STRING;
