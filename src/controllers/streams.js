@@ -1,14 +1,11 @@
-import Model from '../models/model';
+import Streams from '../models/streams';
 
-const streamsModel = new Model('streams');
 export const streamsPage = async (req, res) => {
 	try {
-		const data = await streamsModel.select(
-			'id, streamer_id, title, day_of_week, start_time, description'
-		);
-		res.status(200).json(data.rows);
+		const data = await Streams.findAll();
+		res.status(200).json(data);
 	} catch (err) {
-		res.status(200).json({ error: err.stack });
+		res.status(200).json({ error: err });
 	}
 };
 export default streamsPage;

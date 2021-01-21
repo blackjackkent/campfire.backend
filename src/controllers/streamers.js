@@ -1,14 +1,11 @@
-import Model from '../models/model';
+import Streamers from '../models/streamers';
 
-const streamersModel = new Model('streamers');
 export const streamersPage = async (req, res) => {
 	try {
-		const data = await streamersModel.select(
-			'id, display_name, twitch_handle, bio'
-		);
-		res.status(200).json(data.rows);
+		const data = await Streamers.findAll();
+		res.status(200).json(data);
 	} catch (err) {
-		res.status(200).json({ error: err.stack });
+		res.status(200).json({ error: err });
 	}
 };
 export default streamersPage;
