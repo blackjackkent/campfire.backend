@@ -1,23 +1,33 @@
 import Sequelize from 'sequelize';
-import Model from './model';
 import db from './pool';
+import Streams from './streams';
 
-const Streamers = db.define('streamers', {
-	id: {
-		type: Sequelize.INTEGER,
-		primaryKey: true,
-		autoIncrement: true
+const Streamers = db.define(
+	'streamers',
+	{
+		id: {
+			type: Sequelize.INTEGER,
+			primaryKey: true,
+			autoIncrement: true
+		},
+		displayName: {
+			type: Sequelize.STRING
+		},
+		twitchHandle: {
+			type: Sequelize.STRING
+		},
+		bio: {
+			type: Sequelize.TEXT
+		}
 	},
-	display_name: {
-		type: Sequelize.STRING
-	},
-	twitch_handle: {
-		type: Sequelize.STRING
-	},
-	bio: {
-		type: Sequelize.TEXT
+	{ timestamps: false }
+);
+Streams.belongsTo(Streamers, {
+	onDelete: 'CASCADE',
+	onUpdate: 'CASCADE',
+	foreignKey: {
+		allowNull: false
 	}
 });
-const model = new Model(Streamers);
-
-export default model;
+Streamers.hasMany(Streams);
+export default Streamers;

@@ -1,25 +1,28 @@
 import Sequelize from 'sequelize';
-import Model from './model';
 import db from './pool';
 
-const Streams = db.define('streams', {
-	id: {
-		type: Sequelize.INTEGER,
-		primaryKey: true,
-		autoIncrement: true
+const streams = db.define(
+	'streams',
+	{
+		id: {
+			type: Sequelize.INTEGER,
+			primaryKey: true,
+			autoIncrement: true
+		},
+		streamerId: {
+			type: Sequelize.INTEGER
+		},
+		refName: {
+			type: Sequelize.STRING
+		},
+		seedDate: {
+			type: Sequelize.DATE
+		},
+		length: {
+			type: Sequelize.DOUBLE
+		}
 	},
-	streamer_id: {
-		type: Sequelize.INTEGER
-	},
-	ref_name: {
-		type: Sequelize.STRING
-	},
-	seed_date: {
-		type: Sequelize.DATE
-	},
-	length: {
-		type: Sequelize.DOUBLE
-	}
-});
-const model = new Model(Streams);
-export default model;
+	{ timestamps: false }
+);
+
+export default streams;

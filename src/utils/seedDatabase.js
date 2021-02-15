@@ -2,46 +2,46 @@ import Streamers from '../models/streamers';
 import Streams from '../models/streams';
 
 let blackjackKent = {
-	display_name: 'BlackjackKent',
-	twitch_handle: 'blackjack_kent',
+	displayName: 'BlackjackKent',
+	twitchHandle: 'blackjack_kent',
 	bio: 'BlackjackKent is a streamer and nerd.'
 };
 let wupuga = {
-	display_name: 'Wupuga',
-	twitch_handle: 'wupuga',
+	displayName: 'Wupuga',
+	twitchHandle: 'wupuga',
 	bio: 'Wupuga is a streamer and nerd.'
 };
 (async () => {
-	await Streams.table.sync({ force: true });
-	// eslint-disable-next-line no-console
-	console.log('Streams table synced');
-	await Streamers.table.sync({ force: true });
+	await Streamers.sync({ force: true });
 	// eslint-disable-next-line no-console
 	console.log('Streamers table synced');
+	await Streams.sync({ force: true });
+	// eslint-disable-next-line no-console
+	console.log('Streams table synced');
 	blackjackKent = await Streamers.create(blackjackKent);
 	await Streams.create({
-		streamer_id: blackjackKent.id,
-		ref_name: 'bjk Friday',
-		seed_date: '2021-01-16 03:00:00',
+		streamerId: blackjackKent.id,
+		refName: 'bjk Friday',
+		seedDate: '2021-01-16 03:00:00',
 		length: 3
 	});
 	await Streams.create({
-		streamer_id: blackjackKent.id,
-		ref_name: 'bjk Monday',
-		seed_date: '2021-01-12 00:00:00',
+		streamerId: blackjackKent.id,
+		refName: 'bjk Monday',
+		seedDate: '2021-01-12 00:00:00',
 		length: 2
 	});
 	wupuga = await Streamers.create(wupuga);
 	await Streams.create({
-		streamer_id: wupuga.id,
-		ref_name: 'wupuga Thursday',
-		seed_date: '2021-01-15 01:30:00',
+		streamerId: wupuga.id,
+		refName: 'wupuga Thursday',
+		seedDate: '2021-01-15 01:30:00',
 		length: 3
 	});
 	await Streams.create({
-		streamer_id: wupuga.id,
-		ref_name: 'wupuga Sunday',
-		seed_date: '2021-01-17 19:30:00',
+		streamerId: wupuga.id,
+		refName: 'wupuga Sunday',
+		seedDate: '2021-01-17 19:30:00',
 		length: 5
 	});
 })();
