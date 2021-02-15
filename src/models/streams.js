@@ -11,14 +11,14 @@ const Streams = db.define('streams', {
 	streamer_id: {
 		type: Sequelize.INTEGER
 	},
-	title: {
+	ref_name: {
 		type: Sequelize.STRING
 	},
 	seed_date: {
 		type: Sequelize.DATE
 	},
-	description: {
-		type: Sequelize.TEXT
+	length: {
+		type: Sequelize.DOUBLE
 	}
 });
 const model = new Model(Streams);

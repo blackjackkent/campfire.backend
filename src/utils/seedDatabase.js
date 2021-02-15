@@ -21,27 +21,27 @@ let wupuga = {
 	blackjackKent = await Streamers.create(blackjackKent);
 	await Streams.create({
 		streamer_id: blackjackKent.id,
-		title: 'Friday Night Game Brigade',
+		ref_name: 'bjk Friday',
 		seed_date: '2021-01-16 03:00:00',
-		description: 'Variety stream fun times!'
+		length: 3
 	});
 	await Streams.create({
 		streamer_id: blackjackKent.id,
-		title: 'Monday Night Skill Check',
+		ref_name: 'bjk Monday',
 		seed_date: '2021-01-12 00:00:00',
-		description: 'Soulslikes and other challenging stuff.'
+		length: 2
 	});
 	wupuga = await Streamers.create(wupuga);
 	await Streams.create({
 		streamer_id: wupuga.id,
-		title: '',
+		ref_name: 'wupuga Thursday',
 		seed_date: '2021-01-15 01:30:00',
-		description: 'Wupuga Thursday Stream'
+		length: 3
 	});
 	await Streams.create({
 		streamer_id: wupuga.id,
-		title: '',
+		ref_name: 'wupuga Sunday',
 		seed_date: '2021-01-17 19:30:00',
-		description: 'Wupuga Sunday Stream'
+		length: 5
 	});
 })();
