@@ -1,10 +1,14 @@
 import express from 'express';
-import { indexPage, streamersPage, streamsPage } from '../controllers';
+import {
+	streamersPage,
+	getAllStreams,
+	getAllStreamsStatus
+} from '../controllers';
 
 const indexRouter = express.Router();
 
-indexRouter.get('/', indexPage);
 indexRouter.get('/streamers', streamersPage);
-indexRouter.get('/streams', streamsPage);
+indexRouter.get('/streams', getAllStreams);
+indexRouter.get('/streams/status', getAllStreamsStatus);
 
 export default indexRouter;

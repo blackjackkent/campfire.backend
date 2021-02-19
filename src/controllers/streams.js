@@ -1,7 +1,7 @@
-import Streams from '../models/streams';
-import Streamers from '../models/streamers';
+import Streams from '../data/streams';
+import Streamers from '../data/streamers';
 
-export const streamsPage = async (req, res) => {
+export const getAllStreams = async (req, res) => {
 	try {
 		const data = await Streams.findAll({
 			include: [Streamers]
@@ -11,4 +11,10 @@ export const streamsPage = async (req, res) => {
 		res.status(200).json({ error: err });
 	}
 };
-export default streamsPage;
+export const getAllStreamsStatus = async (req, res) => {
+	try {
+		res.status(200).json(null);
+	} catch (err) {
+		res.status(200).json({ error: err });
+	}
+};

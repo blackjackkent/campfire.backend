@@ -1,5 +1,5 @@
-import Streamers from '../models/streamers';
-import Streams from '../models/streams';
+import Streamers from '../data/streamers';
+import Streams from '../data/streams';
 
 let blackjackKent = {
 	displayName: 'BlackjackKent',
