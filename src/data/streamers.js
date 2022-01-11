@@ -10,14 +10,17 @@ const Streamers = db.define(
 			primaryKey: true,
 			autoIncrement: true
 		},
-		displayName: {
-			type: Sequelize.STRING
-		},
 		twitchHandle: {
 			type: Sequelize.STRING
 		},
 		bio: {
 			type: Sequelize.TEXT
+		},
+		twitter: {
+			type: Sequelize.STRING
+		},
+		discord: {
+			type: Sequelize.STRING
 		}
 	},
 	{ timestamps: false }

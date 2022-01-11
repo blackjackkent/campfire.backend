@@ -1,7 +1,8 @@
 import Streamers from '../data/streamers';
 import Streams from '../data/streams';
+import { filterStreamersByCurrentlyLive } from '../data/twitch';
 
-export const streamersPage = async (req, res) => {
+export const getAllStreamers = async (req, res) => {
 	try {
 		const data = await Streamers.findAll({
 			include: Streams
@@ -11,4 +12,16 @@ export const streamersPage = async (req, res) => {
 		res.status(200).json({ error: err });
 	}
 };
-export default streamersPage;
+export const getCurrentlyLiveStreamers = async (req, res) => {
+	try {
+		const streamers = await Streamers.findAll();
+		const handles = streamers.map((s) => s.twitchHandle);
+		const liveStreamers = await filterStreamersByCurrentlyLive(
+			handles,
+			req.query.force
+		);
+		res.status(200).json(liveStreamers);
+	} catch (err) {
+		res.status(200).json({ error: err });
+	}
+};

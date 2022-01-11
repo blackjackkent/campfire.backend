@@ -1,0 +1,89 @@
+[
+	{
+		"twitchHandle": "blackjack_kent",
+		"bio": "blackjack_kent spends her streams taking on a wide variety of games from shooter to point-and-click, story mode to skill check. Come by any of her streams for a chill time, lots of chat interaction, and a ton of laughs.",
+		"twitter": "blackjackkent",
+		"discord": "https://discord.gg/k4gDad5",
+		"streams": [
+			{
+				"refName": "bjk Friday",
+				"seedDate": "2021-01-16 03:00:00+00",
+				"length": 3
+			},
+			{
+				"refName": "bjk Monday",
+				"seedDate": "2021-01-12 00:00:00+00",
+				"length": 2
+			}
+		]
+	},
+	{
+		"twitchHandle": "wupuga",
+		"bio": "wupuga is a streamer and big nerd",
+		"twitter": "wupuga",
+		"discord": "https://discord.gg/a6zc4N7CyA",
+		"streams": [
+			{
+				"refName": "wupuga Thursday",
+				"seedDate": "2021-01-15 01:30:00+00",
+				"length": 3
+			},
+			{
+				"refName": "wupuga Sunday",
+				"seedDate": "2021-01-17 19:30:00+00",
+				"length": 5
+			}
+		]
+	},
+	{
+		"twitchHandle": "tacosdegatos",
+		"bio": "TacosDeGatos is a variety streamer seen playing everything from Pokemon to Overwatch. His viewers come for the soothing voice and witty humor, but stay for the chance of seeing his puppy.",
+		"twitter": "tacosdegatos",
+		"discord": "https://discord.gg/C2JSrgA",
+		"streams": [
+			{
+				"refName": "tacosdegatos Tuesday",
+				"seedDate": "2021-02-17 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "tacosdegatos Sunday",
+				"seedDate": "2021-02-13 03:00:00+00",
+				"length": 6
+			}
+		]
+	},
+	{
+		"twitchHandle": "msunicorn",
+		"bio": "MsUnicorn is a streamer and a big nerd.",
+		"twitter": "msustreams",
+		"streams": []
+	},
+	{
+		"twitchHandle": "casualfolami",
+		"bio": "casualfolami is a streamer and a big nerd.",
+		"twitter": "casualfolami",
+		"discord": "https://discord.gg/xuRuFDg",
+		"streams": []
+	},
+	{
+		"twitchHandle": "procyonnova",
+		"bio": "ProcyonNova is a streamer and a big nerd.",
+		"twitter": "procyonnova",
+		"streams": []
+	},
+	{
+		"twitchHandle": "grim___creeper",
+		"bio": "Grim___Creeper is a streamer and a big nerd.",
+		"twitter": "grim___creeper",
+		"discord": "https://discord.gg/qSVKDcVDv3",
+		"streams": []
+	},
+	{
+		"twitchHandle": "vengefulshrike",
+		"bio": "VengefulShrike is a streamer and a big nerd.",
+		"twitter": "vengefulshrike",
+		"discord": "https://discord.gg/cvPc7Ps",
+		"streams": []
+	}
+]
