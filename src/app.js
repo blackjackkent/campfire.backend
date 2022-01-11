@@ -6,11 +6,7 @@ import indexRouter from './routes/index';
 
 const app = express();
 app.use(logger('dev'));
-app.use(
-	cors({
-		origin: 'https://campfire-stream-team-frontend.herokuapp.com'
-	})
-);
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
