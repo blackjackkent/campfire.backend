@@ -19,7 +19,7 @@
 	},
 	{
 		"twitchHandle": "wupuga",
-		"bio": "wupuga is a streamer and big nerd",
+		"bio": "",
 		"twitter": "wupuga",
 		"discord": "https://discord.gg/a6zc4N7CyA",
 		"streams": [
@@ -37,53 +37,151 @@
 	},
 	{
 		"twitchHandle": "tacosdegatos",
-		"bio": "TacosDeGatos is a variety streamer seen playing everything from Pokemon to Overwatch. His viewers come for the soothing voice and witty humor, but stay for the chance of seeing his puppy.",
+		"bio": "TacosDeGatos is a variety streamer seen playing everything from Pokemon to Halo. Sometimes he plays really well and inspires others with his skills, sometimes he doesn't. His viewers come for the soothing voice and witty humor, but stay for the chance of seeing his puppy.",
 		"twitter": "tacosdegatos",
 		"discord": "https://discord.gg/C2JSrgA",
 		"streams": [
 			{
 				"refName": "tacosdegatos Tuesday",
 				"seedDate": "2021-02-17 01:00:00+00",
-				"length": 4
+				"length": 3
 			},
 			{
-				"refName": "tacosdegatos Sunday",
-				"seedDate": "2021-02-13 03:00:00+00",
-				"length": 6
+				"refName": "tacosdegatos Friday",
+				"seedDate": "2021-02-13 04:00:00+00",
+				"length": 5
 			}
 		]
 	},
 	{
 		"twitchHandle": "msunicorn",
-		"bio": "MsUnicorn is a streamer and a big nerd.",
+		"bio": "",
 		"twitter": "msustreams",
 		"streams": []
 	},
 	{
 		"twitchHandle": "casualfolami",
-		"bio": "casualfolami is a streamer and a big nerd.",
+		"bio": "",
 		"twitter": "casualfolami",
 		"discord": "https://discord.gg/xuRuFDg",
 		"streams": []
 	},
 	{
 		"twitchHandle": "procyonnova",
-		"bio": "ProcyonNova is a streamer and a big nerd.",
+		"bio": "",
 		"twitter": "procyonnova",
 		"streams": []
 	},
 	{
 		"twitchHandle": "grim___creeper",
-		"bio": "Grim___Creeper is a streamer and a big nerd.",
+		"bio": "I'm GrimCreeper (grim___creeper, let's hear it for the triple underscore!) and you're likely to find me either chilling out on a variety of single player games or getting loud during After Dark. I grew up a Nintendo kid so I assure you, I'm just as confused about the amount of Sonic that continues to suffuse the stream but he's definitely going to come up. I may be good at some of the games that are played or that may be something I tell myself so I can sleep at night, but I'm sure going to try and beat them. ",
 		"twitter": "grim___creeper",
 		"discord": "https://discord.gg/qSVKDcVDv3",
-		"streams": []
+		"streams": [
+			{
+				"refName": "grim Wednesday",
+				"seedDate": "2022-01-13 01:30:00+00",
+				"length": 3
+			},
+			{
+				"refName": "grim Friday",
+				"seedDate": "2021-02-13 04:00:00+00",
+				"length": 3
+			}
+		]
 	},
 	{
-		"twitchHandle": "vengefulshrike",
-		"bio": "VengefulShrike is a streamer and a big nerd.",
-		"twitter": "vengefulshrike",
+		"twitchHandle": "DragonC0mmander",
+		"bio": "Hiyo, just your friendly cave dwelling Trans Dragon here. I'm a 30 something shaken-not-stirred mix of ADHD, anxiety, depression, a growing collection of OCs, dad jokes, and puns! I play a lot of rpgs and provide a chill and accepting environment where it's more about the journey and the friends we make than the destination. Come hang out, bring snacks, and remember to stay hydrated!",
+		"twitter": "DragonC0mmander",
 		"discord": "https://discord.gg/cvPc7Ps",
-		"streams": []
+		"streams": [
+			{
+				"refName": "logan Monday",
+				"seedDate": "2022-01-11 03:00:00+00",
+				"length": 5
+			},
+			{
+				"refName": "logan Wednesday",
+				"seedDate": "2022-01-12 20:00:00+00",
+				"length": 5
+			},
+			{
+				"refName": "logan Saturday",
+				"seedDate": "2022-01-16 02:00:00+00",
+				"length": 6
+			}
+		]
+	},
+	{
+		"twitchHandle": "CasualFolami",
+		"bio": "Hello and welcome to my stream! Why don't you sit a spell and chat with me while I make a fool of myself in video games? Whether it's peeking the Widow in Overwatch, using my Elusive Jump off the platform as Dragoon in FFXIV, or missing my jump in Destiny 2 I enjoy laughing at myself. I also enjoy sharing video games with an audience and talking about all things geeky and nerdy.",
+		"twitter": "casualfolami",
+		"discord": "https://discord.gg/xuRuFDg",
+		"streams": [
+			{
+				"refName": "folami Monday",
+				"seedDate": "2022-02-01 00:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "folami Tuesday",
+				"seedDate": "2022-02-02 00:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "folami Wednesday",
+				"seedDate": "2022-02-03 00:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "folami Thursday",
+				"seedDate": "2022-02-04 00:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "folami Friday",
+				"seedDate": "2022-02-05 00:00:00+00",
+				"length": 4
+			}
+		]
+	},
+	{
+		"twitchHandle": "tolitir",
+		"bio": "Life can be a swirl so take the Tolitir stream for a spin sometime. Fighting games and Roguelikes are stream staples, but I want to celebrate all the different ways we play so expect to see everything from AAA to Indie games on the channel too.",
+		"twitter": "t0litir",
+		"discord": "https://discord.gg/xuRuFDg",
+		"streams": [
+			{
+				"refName": "tolitir Monday",
+				"seedDate": "2022-02-01 06:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "tolitir Tuesday",
+				"seedDate": "2022-02-02 06:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "tolitir Wednesday",
+				"seedDate": "2022-02-03 06:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "tolitir Thursday",
+				"seedDate": "2022-02-04 06:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "tolitir Friday",
+				"seedDate": "2022-02-05 01:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "tolitir Saturday",
+				"seedDate": "2022-02-06 01:00:00+00",
+				"length": 2
+			}
+		]
 	}
 ]
