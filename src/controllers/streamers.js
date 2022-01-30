@@ -15,7 +15,7 @@ export const getAllStreamers = async (req, res) => {
 export const getCurrentlyLiveStreamers = async (req, res) => {
 	try {
 		const streamers = await Streamers.findAll();
-		const handles = streamers.map((s) => s.twitchHandle);
+		const handles = streamers.map((s) => s.twitchHandle.toLowerCase());
 		const liveStreamers = await filterStreamersByCurrentlyLive(
 			handles,
 			req.query.force

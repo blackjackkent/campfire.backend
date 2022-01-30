@@ -28,6 +28,8 @@
 		"class-methods-use-this": "off",
 		"no-plusplus": "off",
 		"arrow-body-style": ["error", "as-needed"],
+		"implicit-arrow-linebreak": "off",
+		"function-paren-newline": "off",
 		"no-confusing-arrow": [
 			"error",
 			{

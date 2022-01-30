@@ -13,10 +13,11 @@ export async function filterStreamersByCurrentlyLive(usernames, force = false) {
 		userName: usernames
 	};
 	const streams = await apiClient.helix.streams.getStreams(filter);
-	const currentlyLiveStreamers = streams.data.map((s) => s.userName);
+	const currentlyLiveStreamers = streams.data.map((s) =>
+		s.userName.toLowerCase()
+	);
 	if (force) {
 		// currentlyLiveStreamers.push('wupuga');
-		// currentlyLiveStreamers.push('tacosdegatos');
 		currentlyLiveStreamers.push('blackjack_kent');
 	}
 	return currentlyLiveStreamers;
