@@ -21,6 +21,9 @@ const Streamers = db.define(
 		},
 		discord: {
 			type: Sequelize.STRING
+		},
+		instagram: {
+			type: Sequelize.STRING
 		}
 	},
 	{ timestamps: false }

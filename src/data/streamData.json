@@ -107,33 +107,33 @@
 		]
 	},
 	{
-		"twitchHandle": "CasualFolami",
+		"twitchHandle": "Casual_Jacob_",
 		"bio": "Hello and welcome to my stream! Why don't you sit a spell and chat with me while I make a fool of myself in video games? Whether it's peeking the Widow in Overwatch, using my Elusive Jump off the platform as Dragoon in FFXIV, or missing my jump in Destiny 2 I enjoy laughing at myself. I also enjoy sharing video games with an audience and talking about all things geeky and nerdy.",
-		"twitter": "casualfolami",
+		"twitter": "casual_jacob_",
 		"discord": "https://discord.gg/xuRuFDg",
 		"streams": [
 			{
-				"refName": "folami Monday",
+				"refName": "jake Monday",
 				"seedDate": "2022-02-01 00:00:00+00",
 				"length": 4
 			},
 			{
-				"refName": "folami Tuesday",
+				"refName": "jake Tuesday",
 				"seedDate": "2022-02-02 00:00:00+00",
 				"length": 4
 			},
 			{
-				"refName": "folami Wednesday",
+				"refName": "jake Wednesday",
 				"seedDate": "2022-02-03 00:00:00+00",
 				"length": 4
 			},
 			{
-				"refName": "folami Thursday",
+				"refName": "jake Thursday",
 				"seedDate": "2022-02-04 00:00:00+00",
 				"length": 4
 			},
 			{
-				"refName": "folami Friday",
+				"refName": "jake Friday",
 				"seedDate": "2022-02-05 00:00:00+00",
 				"length": 4
 			}
@@ -173,6 +173,39 @@
 			{
 				"refName": "tolitir Saturday",
 				"seedDate": "2022-02-06 01:00:00+00",
+				"length": 2
+			}
+		]
+	},
+	{
+		"twitchHandle": "Siur__",
+		"bio": "Ello! I am Siúr (Si-ur) and I'm a literature addicted cook-acholic with some serious game and music OCD on the side.  My favorite movie is Labyrinth and in another world I married the Goblin King.  I like all things strange and bizarre and even maybe a few gross things.",
+		"instagram": "SiurPairc",
+		"discord": "https://discord.gg/p5gXt68wfV",
+		"streams": [
+			{
+				"refName": "siur Monday",
+				"seedDate": "2022-08-22 22:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "siur Tuesday",
+				"seedDate": "2022-08-23 22:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "siur Wednesday",
+				"seedDate": "2022-08-24 22:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "siur Thursday",
+				"seedDate": "2022-08-25 22:00:00+00",
+				"length": 2
+			},
+			{
+				"refName": "siur Friday",
+				"seedDate": "2022-08-26 22:00:00+00",
 				"length": 2
 			}
 		]
