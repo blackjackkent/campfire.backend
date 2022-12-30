@@ -178,6 +178,28 @@
 		]
 	},
 	{
+		"twitchHandle": "ki2life",
+		"bio": "Hi, I'm Ki! (Pronounced like \"Key\"!) I'm a pink-haired kitsune who streams a variety of fun games!  I adore both the Sonic and Kingdom Hearts franchises. I'm so excited to meet you! Come on in and let's unlock a good time! I'll even bring some friends along!",
+		"discord": "https://discord.gg/Jw23zJj",
+		"streams": [
+			{
+				"refName": "ki Tuesday",
+				"seedDate": "2022-02-09 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "ki thursday",
+				"seedDate": "2022-02-11 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "ki friday",
+				"seedDate": "2022-02-12 01:00:00+00",
+				"length": 4
+			}
+		]
+	},
+	{
 		"twitchHandle": "Siur__",
 		"bio": "Ello! I am Siúr (Si-ur) and I'm a literature addicted cook-acholic with some serious game and music OCD on the side.  My favorite movie is Labyrinth and in another world I married the Goblin King.  I like all things strange and bizarre and even maybe a few gross things.",
 		"instagram": "SiurPairc",
@@ -207,6 +229,38 @@
 				"refName": "siur Friday",
 				"seedDate": "2022-08-26 22:00:00+00",
 				"length": 2
+			}
+		]
+	},
+	{
+		"twitchHandle": "theloungingpotato",
+		"bio": "If you like some dude who is awful at video games and makes an obscene amount of dick jokes, my stream is the one for you. What I lack in skill, I make up for in enthusiasm by exclaiming incredulously at the screen when things go awry. I'm here for a good time, not a long time.",
+		"twitter": "LoungingPotato",
+		"streams": [
+			{
+				"refName": "potato Tuesday",
+				"seedDate": "2022-12-28 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "potato Wednesday",
+				"seedDate": "2022-12-29 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "potato Thursday",
+				"seedDate": "2022-12-30 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "potato Saturday",
+				"seedDate": "2023-01-01 01:00:00+00",
+				"length": 4
+			},
+			{
+				"refName": "potato Sunday",
+				"seedDate": "2023-01-02 01:00:00+00",
+				"length": 4
 			}
 		]
 	}
