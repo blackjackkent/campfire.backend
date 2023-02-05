@@ -107,39 +107,6 @@
 		]
 	},
 	{
-		"twitchHandle": "Casual_Jacob_",
-		"bio": "Hello and welcome to my stream! Why don't you sit a spell and chat with me while I make a fool of myself in video games? Whether it's peeking the Widow in Overwatch, using my Elusive Jump off the platform as Dragoon in FFXIV, or missing my jump in Destiny 2 I enjoy laughing at myself. I also enjoy sharing video games with an audience and talking about all things geeky and nerdy.",
-		"twitter": "casual_jacob_",
-		"discord": "https://discord.gg/xuRuFDg",
-		"streams": [
-			{
-				"refName": "jake Monday",
-				"seedDate": "2022-02-01 00:00:00+00",
-				"length": 4
-			},
-			{
-				"refName": "jake Tuesday",
-				"seedDate": "2022-02-02 00:00:00+00",
-				"length": 4
-			},
-			{
-				"refName": "jake Wednesday",
-				"seedDate": "2022-02-03 00:00:00+00",
-				"length": 4
-			},
-			{
-				"refName": "jake Thursday",
-				"seedDate": "2022-02-04 00:00:00+00",
-				"length": 4
-			},
-			{
-				"refName": "jake Friday",
-				"seedDate": "2022-02-05 00:00:00+00",
-				"length": 4
-			}
-		]
-	},
-	{
 		"twitchHandle": "tolitir",
 		"bio": "Life can be a swirl so take the Tolitir stream for a spin sometime. Fighting games and Roguelikes are stream staples, but I want to celebrate all the different ways we play so expect to see everything from AAA to Indie games on the channel too.",
 		"twitter": "t0litir",
